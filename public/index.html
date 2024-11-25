@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hotel Logroño</title>
+    <link href="../Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .carousel-caption {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+      }
+      .carousel-caption .divider {
+          width: 300px;
+          height: 2px;
+          background-color: white;
+          margin: 10px auto;
+      }
+      ul.list-unstyled {
+            padding: 0;
+        }
+        ul.list-unstyled li {
+            list-style: none;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            margin-top:5px;
+        }
+      ul.list-unstyled li:last-child {
+            border-bottom: none;
+        }
+
+        .section-blue {
+            background-color: #043171;
+            color: white;
+            padding: 20px;
+        }
+  </style>
+  </head>
+  <body>
+    <script src="../Bootstrap/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #043171">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/logo.png" alt="Bootstrap" width="160" height="60"
+        /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">El hotel </a>
+            <a class="nav-link active" href="#">habitaciones</a>
+            <a class="nav-link active" href="#">Restauremte</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="../assets/Carrousel1.jpg" class="d-block w-100" alt="First slide">
+              <div class="carousel-caption">
+                <div class="texto_slider text-center mt-lg-3 text-uppercase magictime swashIn">						
+                  Relájate
+                  <div class="divider"></div>
+                </div>
+                
+                <h1 class="text-center text-uppercase font-weight-light pt-2 pb-lg-5 magictime swashIn">Disfruta de la tranquilidad del Hotel Logroño</h1>
+              </div>
+          </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+
+    <div class="container-fluid w-100">
+      <div class="row ">
+          <div class="col-md-7 my-xl-5 mx-5">
+              <section>
+                  <p>El hotel Logroño posee una ubicación céntrica y tranquila, junto al Parque de San Miguel. El centro de la ciudad de Logroño, con su histórica catedral y la ancestral Muralla del Revellín, se encuentran tan solo a 20 minutos a pie. Logroño es una ciudad conocida por su vino de Rioja y sus pinchos. Irse de pinchos es casi una obligación, y la zona perfecta son los restaurantes y bares de las calles Laurel y San Juan.</p>
+                  <p>La ubicación del hotel es simplemente, ideal:</p>
+                  <ol class="list-unstyled">
+                      <li>A tan sólo cinco minutos en coche del Palacio de Congresos Riojaforum</li>
+                      <li>Hay una parada de autobús delante del hotel</li>
+                      <li>Está ubicado en la tranquila zona del parque de San Miguel</li>
+                      <li>Disponemos de 108 habitaciones Standard, además de dos Junior Suites en el piso 5.</li>
+                  </ol>
+
+                  <p>Todas las habitaciones son muy luminosas gracias a su luz natural. La mitad de las habitaciones poseen vistas al parque y a las montañas.</p>
+                  <p>En el Hotel Logroño servimos un copioso y variado desayuno buffet, que se sirve cada mañana en nuestra luminosa sala de desayunos. El Open Bar del hotel está abierto los 24 horas. O si lo prefieres puedes disfrutar de nuestro amplio lobby y área de lounge, con vistas al parque desde los ventanales.</p>
+              
+                  <ul class="list-unstyled">
+                      <li>Parking disponible</li>
+                      <li>Ascensor panorámico</li>
+                  </ul>
+
+                  <div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-snow" viewBox="0 0 16 16">
+                        <path d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793V8.866l-3.4 1.963-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495L7 8 3.6 6.037l-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 1 1 .966-.258l.495 1.849L7.5 7.134V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 1 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v3.927l3.4-1.963.496-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l3.4 1.963 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-3.4-1.963v3.927l1.353 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z"/>
+                      </svg>
+                    </div>
+                  </div>
+              </section>
+          </div>
+
+          <div class="col-md-4 segundo ms-auto ">
+              <section class="section-blue" data-bs-theme="dark">
+                <h3>INFORMACION DEL HOTEL</h3>
+                <ul class="list-unstyled lateral">
+                      <li>
+                        <ul class="list-unstyled mx-5">
+                          <li>Avd Club Deportivo, 98, 26007 Logroño España</li>
+                          <li>Reservas: +34 941 51 92 70</li>
+                          <li>Fax: +34 941 51 21 66</li>
+
+                        </ul>
+                       
+                      </li>
+                      <li>
+                        <p class="text-blue">
+                          <i class="bi bi-car-front-fill"></i> PARKING
+                        </p>
+                        <p>parking fuera del hotel</p>
+                        <p>Precio: 8 EUR + 105 de IVA</p>
+                      </li>
+                      <li>
+                        <p>POLITICA DE MASCOTAS</p>
+                        <p>Perror y gatos permitidos</p>
+                        <p>Peso Máximo: 25Kg</p>
+                        <p>Precio: 10€ / noche</p>
+                        <p>Disponibilidad limitada, contacta con el hotel para reservar.(Max. 2 mascotas/habitación)</p>
+                        <p>Ofrecemos detalle de bienvenida para las mascotas </p>
+                        <p>Perror guias sin cargo</p>
+                      </li>
+                      <li>
+                        <p>INFORMACION</p>
+                        <p>Check-in:15:00</p>
+                        <p>Check-out:12:00</p>
+                        <p>Lazy sunday 14:00 FREE - Despues suplemento 25€</p>
+                      </li>
+                      <li>
+                        <h5>POLITICA DE FUMADORES</h5>
+                        <p>100% no fumador</p>
+                      </li>
+                  </ul>
+              </section>
+          </div>
+      </div>
+  </div>
+
+    
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2023 Hotel Logroño. Todos los derechos reservados.</p>
+  </footer>
+  </body>
+</html>
