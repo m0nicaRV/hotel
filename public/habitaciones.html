@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hotel Logroño</title>
+    <link href="/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .carousel-caption {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+      }
+      .carousel-caption .divider {
+          width: 300px;
+          height: 2px;
+          background-color: white;
+          margin: 10px auto;
+      }
+       ul.lateral {
+            padding: 0;
+        }
+        ul.lateral li {
+            list-style: none;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            margin-top:5px;
+        }
+        ul.lateral li:last-child {
+            border-bottom: none;
+        }
+
+        .section-blue {
+            background-color: #043171;
+            color: white;
+            padding: 20px;
+        }
+  </style>
+  </head>
+  <body>
+    <script src="/Bootstrap/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #043171">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/logo.png" alt="Bootstrap" width="160" height="60"
+        /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="/index.html">El hotel </a>
+            <a class="nav-link active" href="/public/habitaciones.html">habitaciones</a>
+            <a class="nav-link active" href="#">Restaurante</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div>
+        <img src="/assets/portada-hab-2048x556.jpg" alt="Habitación Hotel Logroño" class="img-fluid w-100" style="max-height: 500px; object-fit: cover;">
+    </div>
+
+    <section class="text-center py-5 container">
+        <h2 class="text-uppercase fw-bold">Our Rooms</h2>
+        <div class="d-flex justify-content-center align-items-center mt-3">
+            <hr class="w-25 border border-primary">
+        </div>
+        <p class="mt-4">
+            The rooms at Logroño Hotel are modern, comfortable, bright, and very pleasant. All rooms have exterior views, either of the park or the avenue. The rooms with park views also offer stunning vistas of the Cantabrian Mountains on the horizon.
+        </p>
+    </section>
+
+    <section class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row align-items-center">
+            
+                <div class="col-md-5">
+                    <img src="/assets/doble_h.jpg" alt="Habitación Standard" class="img-fluid rounded">
+                </div>
+                <div class="col-md-1">
+
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="text-primary fw-light">Standard Room</h3>
+                    <h5 class="mt-4"><i class="bi bi-house-door">AMENITIES</i></h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Availability of cribs</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Amenities kit</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Bathtub</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Availability of an additional bed</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right"> Hairdryer</i>
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Free and high-speed Wi-Fi</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Safe</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Satellite TV</i> 
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-outline-primary me-2">View Galery</a>
+                        <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                  <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                      </svg>
+                  </div>
+                  <p class="text-center">1</p>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">11 m<sup>2</sup></p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck-flatbed" viewBox="0 0 16 16">
+                            <path d="M11.5 4a.5.5 0 0 1 .5.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-4 0 1 1 0 0 1-1-1v-1h11V4.5a.5.5 0 0 1 .5-.5M3 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1.732 0h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4a2 2 0 0 1 1.732 1"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">1 single bed</p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-snow" viewBox="0 0 16 16">
+                      <path d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793V8.866l-3.4 1.963-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495L7 8 3.6 6.037l-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 1 1 .966-.258l.495 1.849L7.5 7.134V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 1 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v3.927l3.4-1.963.496-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l3.4 1.963 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-3.4-1.963v3.927l1.353 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z"/>
+                    </svg>
+                    </div>
+                    <p class="text-center">Air conditioning</p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+                            <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.44 12.44 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.52.52 0 0 0 .668.05A11.45 11.45 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049"/>
+                            <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.46 9.46 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065m-2.183 2.183c.226-.226.185-.605-.1-.75A6.5 6.5 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.5 5.5 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091zM9.06 12.44c.196-.196.198-.52-.04-.66A2 2 0 0 0 8 11.5a2 2 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">wifi</p>
+                  </div>
+                  <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+               
+                <div class="col-md-6">
+                    <h2 class="text-primary fw-light"> Standard double room 2 persons</h2>
+                    <h5 class="mt-4">
+                        <i class="bi bi-list">AMENITIES</i>
+                    </h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Availability of cribs</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Amenities kit</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Bathtub</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Availability of an additional bed</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right"> Hairdryer</i>
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Free and high-speed Wi-Fi</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Safe</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Satellite TV</i> 
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-outline-primary me-2">View Gallery</a>
+                        <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <img src="/assets/dobel_2_h.jpg" alt="Habitación Standard Doble" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                  <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                      </svg>
+                  </div>
+                  <p class="text-center">1,2</p>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">16 m<sup>2</sup></p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck-flatbed" viewBox="0 0 16 16">
+                            <path d="M11.5 4a.5.5 0 0 1 .5.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-4 0 1 1 0 0 1-1-1v-1h11V4.5a.5.5 0 0 1 .5-.5M3 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1.732 0h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4a2 2 0 0 1 1.732 1"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">
+                        1 queen bed or 2 twin beds</p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-snow" viewBox="0 0 16 16">
+                      <path d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793V8.866l-3.4 1.963-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495L7 8 3.6 6.037l-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 1 1 .966-.258l.495 1.849L7.5 7.134V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 1 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v3.927l3.4-1.963.496-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l3.4 1.963 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-3.4-1.963v3.927l1.353 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z"/>
+                    </svg>
+                    </div>
+                    <p class="text-center">Air conditioning</p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+                            <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.44 12.44 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.52.52 0 0 0 .668.05A11.45 11.45 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049"/>
+                            <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.46 9.46 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065m-2.183 2.183c.226-.226.185-.605-.1-.75A6.5 6.5 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.5 5.5 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091zM9.06 12.44c.196-.196.198-.52-.04-.66A2 2 0 0 0 8 11.5a2 2 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">wifi</p>
+                  </div>
+                  <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row align-items-center">
+            
+                <div class="col-md-5">
+                    <img src="/assets/doble_h.jpg" alt="Habitación Standard" class="img-fluid rounded">
+                </div>
+                <div class="col-md-1">
+
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="text-primary fw-light">Habitación Standard</h3>
+                    <h5 class="mt-4"><i class="bi bi-house-door">AMENITIES</i></h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Availability of cribs</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Amenities kit</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Bathtub</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Availability of an additional bed</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right"> Hairdryer</i>
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Free and high-speed Wi-Fi</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Safe</i> 
+                        </li>
+                        <li class="border-bottom py-2">
+                            <i class="bi bi-chevron-right">Satellite TV</i> 
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-outline-primary me-2">View gallery</a>
+                        <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                  <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                      </svg>
+                  </div>
+                  <p class="text-center">1</p>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">11 m<sup>2</sup></p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck-flatbed" viewBox="0 0 16 16">
+                            <path d="M11.5 4a.5.5 0 0 1 .5.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-4 0 1 1 0 0 1-1-1v-1h11V4.5a.5.5 0 0 1 .5-.5M3 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1.732 0h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4a2 2 0 0 1 1.732 1"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">1 cama queen o 2 cama twin</p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-snow" viewBox="0 0 16 16">
+                      <path d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793V8.866l-3.4 1.963-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495L7 8 3.6 6.037l-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 1 1 .966-.258l.495 1.849L7.5 7.134V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 1 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v3.927l3.4-1.963.496-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l3.4 1.963 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-3.4-1.963v3.927l1.353 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z"/>
+                    </svg>
+                    </div>
+                    <p class="text-center">
+                        Air conditioning</p>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+                            <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.44 12.44 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.52.52 0 0 0 .668.05A11.45 11.45 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049"/>
+                            <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.46 9.46 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065m-2.183 2.183c.226-.226.185-.605-.1-.75A6.5 6.5 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.5 5.5 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091zM9.06 12.44c.196-.196.198-.52-.04-.66A2 2 0 0 0 8 11.5a2 2 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+                          </svg>
+                    </div>
+                    <p class="text-center">wifi</p>
+                  </div>
+                  <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <footer class="text-light py-4" style="background-color: #002f6c;">
+        <div class="container">
+            <div class="row">
+      
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li>Reservas: +34 941 51 92 70</li>
+                        <li>Fax: +34 941 51 21 66</li>
+                        <li>Email: <a href="mailto:res@hiexlogrono.com" class="text-light">res@hiexlogrono.com</a></li>
+                    </ul>
+                </div>
+      
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Dónde Estamos</h5>
+                    <ul class="list-unstyled">
+                        <li>Avda Club Deportivo, 98</li>
+                        <li>26007 Logroño - La Rioja</li>
+                        <li>España</li>
+                    </ul>
+                    
+                </div>
+      
+                <div class="col-md-4">
+                  <div class="d-flex mt-3">
+                        <img src="/assets/calificacion_energetica.png" alt="Certificación Energética" class="me-3" style="height: 100px;">
+                        <img src="/assets/greenkey_logo.jpg" alt="Green Key" style="height: 100px;">
+                    </div>
+                </div>
+      
+      
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <small>
+                        © Hotel Logroño – 2024 – <a href="#" class="text-light">Política de Privacidad</a> – <a href="#" class="text-light">Política de cookies</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+      </footer>
+        </body>
+      </html>
+      
