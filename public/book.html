@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation Form</title>
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+    <script src="/Bootstrap/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #043171">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/assets/logo.png" alt="Bootstrap" width="160" height="60"
+          /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="/index.html">Hotel </a>
+              <a class="nav-link active" href="/public/habitaciones.html">Rooms</a>
+              <a class="nav-link active" href="/public/book.html">Book</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-5">
+        <div class="form-container mx-auto col-md-8 col-lg-6">
+           
+            <form>
+                <div class="mb-3">
+                    <label for="full-name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="full-name" placeholder="Enter your full name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="checkin-date" class="form-label">Check-in Date</label>
+                    <input type="date" class="form-control" id="checkin-date" required>
+                </div>
+                <div class="mb-3">
+                    <label for="checkout-date" class="form-label">Check-out Date</label>
+                    <input type="date" class="form-control" id="checkout-date" required>
+                </div>
+                <div class="mb-3">
+                    <label for="room-type" class="form-label">Room Type</label>
+                    <select class="form-select" id="room-type" required>
+                        <option selected disabled>Select an option</option>
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="guests" class="form-label">Number of Guests</label>
+                    <input type="number" class="form-control" id="guests" min="1" max="10" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comments" class="form-label">Additional Comments</label>
+                    <textarea class="form-control" id="comments" rows="3" placeholder="Enter any special requests or comments"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="text-light py-4" style="background-color: #002f6c;">
+        <div class="container">
+            <div class="row">
+      
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>Reservations: +34 941 51 92 70</li>
+                        <li>Fax: +34 941 51 21 66</li>
+                        <li>Email: <a href="mailto:res@hiexlogrono.com" class="text-light">res@hiexlogrono.com</a></li>
+                    </ul>
+                </div>
+      
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Where We Are</h5>
+                    <ul class="list-unstyled">
+                        <li>Avda Club Deportivo, 98</li>
+                        <li>26007 Logroño - La Rioja</li>
+                        <li>Spain</li>
+                    </ul>
+                    
+                </div>
+      
+      
+                <div class="col-md-4">
+                  <div class="d-flex mt-3">
+                        <img src="/assets/calificacion_energetica.png" alt="Certificación Energética" class="me-3" style="height: 100px;">
+                        <img src="/assets/greenkey_logo.jpg" alt="Green Key" style="height: 100px;">
+                    </div>
+                </div>
+      
+      
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <small>
+                        © Hotel Logroño – 2024 – <a href="#" class="text-light">Política de Privacidad</a> – <a href="#" class="text-light">Política de cookies</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+  
+</body>
+</html>
